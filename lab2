@@ -3,3 +3,14 @@ locally:
 git branch -d branch_name
 remote:
 git push origin :branch_name
+==========================================================
+to list tag:
+git tag
+========================================================
+To delete a remote tag
+git push origin --delete tag_name
+git push origin :refs/tags/tag_name
+=======================================================
+To delete a local tag
+git tag -d tag_name
+===============================================
